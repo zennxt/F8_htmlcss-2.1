@@ -93,5 +93,682 @@
         <!-- Style CSS -->
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
-    <body></body>
+    <body>
+        <!-- ===== HEADER ===== -->
+        <header class="header header--sticky">
+            <div class="display-area">
+                <div class="header__body row">
+                    <!-- Logo -->
+                    <div class="header__logo">
+                        <a href="#!" class="logo">
+                            <img src="./assets/img/logo.svg" alt="Besnik." />
+                        </a>
+                    </div>
+                    <!-- Navigation Bar -->
+                    <nav class="header__navbar">
+                        <ul class="navbar__list row">
+                            <li class="navbar__item">
+                                <a
+                                    href="#!"
+                                    class="navbar__link navbar--action"
+                                    title="Home"
+                                >
+                                    Home
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a
+                                    href="#!"
+                                    class="navbar__link"
+                                    title="Features"
+                                >
+                                    Features
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a
+                                    href="#!"
+                                    class="navbar__link"
+                                    title="Pricing"
+                                >
+                                    Pricing
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link" title="About">
+                                    About
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a
+                                    href="#!"
+                                    class="navbar__link"
+                                    title="Contact"
+                                >
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- Action -->
+                    <div class="header__action row">
+                        <a href="#!" class="action__link action__sign-in"
+                            >Sign in</a
+                        >
+                        <button class="action__link action__sign-up btn">
+                            Sign up
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- ==== MAIN ==== -->
+        <main>
+            <!-- ---- HERO ---- -->
+            <section class="hero" id="hero">
+                <div class="display-area">
+                    <div class="hero-body row">
+                        <!-- Hero Content -->
+                        <section class="hero__content-container">
+                            <p class="hero__title">😎 EASY LEAENING PLATFORM</p>
+                            <h1 class="hero__heading">
+                                Words learner come here.
+                            </h1>
+                            <p class="hero__desc">
+                                Build skills with courses, certificates, and get
+                                online knowledge from our world&#8209;class
+                                platform.
+                            </p>
+                            <div class="hero__action row">
+                                <div class="hero__btn btn">Get Started</div>
+                                <button class="hero__play">
+                                    <svg
+                                        width="14"
+                                        height="18"
+                                        viewBox="0 0 14 18"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M14 9L0 0V18L14 9Z"
+                                            fill="#1EBFC1"
+                                        />
+                                    </svg>
+                                </button>
+                            </div>
+                        </section>
+                        <!-- Hero Images -->
+                        <div class="hero__images-container">
+                            <img
+                                class="hero-img"
+                                src="./assets/img/hero-img.png"
+                                alt="Words learner come here."
+                            />
+                            <!-- Courser block -->
+                            <div class="hero__coursers-block row">
+                                <img
+                                    src="./assets/icon/icon-book.svg"
+                                    alt="Book Icon"
+                                />
+                                <p class="courses-block__title">
+                                    Courses 1000+
+                                </p>
+                            </div>
+                            <!-- Schedules block -->
+                            <div class="hero__schedules-block">
+                                <p class="schedules-block__title">Schedules</p>
+                                <div class="schedules-block__bar">
+                                    <div class="schedules__bar"></div>
+                                    <div class="schedules__bar"></div>
+                                    <div class="schedules__bar"></div>
+                                    <div class="schedules__seperate-bar"></div>
+                                </div>
+                            </div>
+                            <!-- Students block -->
+                            <div class="hero__students-block">
+                                <p class="students-block__title">
+                                    Our Active Students
+                                </p>
+                                <ul class="students-block__avatars">
+                                    <li class="avatar__circle">
+                                        <img
+                                            src="./assets/img/avatar-1.jpg"
+                                            alt=""
+                                            class="avatar__circle-img"
+                                        />
+                                    </li>
+                                    <li class="avatar__circle">
+                                        <img
+                                            src="./assets/img/avatar-2.jpg"
+                                            alt=""
+                                            class="avatar__circle-img"
+                                        />
+                                    </li>
+                                    <li class="avatar__circle">
+                                        <img
+                                            src="./assets/img/avatar-3.jpg"
+                                            alt=""
+                                            class="avatar__circle-img"
+                                        />
+                                    </li>
+                                    <li class="avatar__circle">
+                                        <img
+                                            src="./assets/img/avatar-4.jpg"
+                                            alt=""
+                                            class="avatar__circle-img"
+                                        />
+                                    </li>
+                                    <li class="avatar__circle">
+                                        <p class="avatar__qty">10K</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ---- FEATURES -->
+            <section class="features" id="features">
+                <div class="display-area">
+                    <div class="features__body">
+                        <div class="features__title">FEATURES</div>
+                        <h2 class="features__heading">
+                            We are providing suitable features for students.
+                        </h2>
+                        <p class="features__desc">
+                            Read our awesome feature that is absolutely suit for
+                            you. Explore the feature and know the best.
+                        </p>
+                        <!-- Features list -->
+                        <ul class="features__list row">
+                            <!-- Live class -->
+                            <li class="features__item">
+                                <div class="features__img">
+                                    <img
+                                        src="./assets/icon/icon-monitor.svg"
+                                        alt="Monitor icon"
+                                        class="features__icon"
+                                    />
+                                </div>
+                                <h3 class="features__feature">Live Class</h3>
+                                <p class="features__content-feature">
+                                    We are providing live classes with the best
+                                    teacher for you
+                                </p>
+                            </li>
+                            <!-- Discuss -->
+                            <li class="features__item">
+                                <div
+                                    class="features__img"
+                                    style="--features-icon-bg-color: #ff947a"
+                                >
+                                    <img
+                                        src="./assets/icon/icon-chating.svg"
+                                        alt="Chatting icon"
+                                        class="features__icon"
+                                    />
+                                </div>
+                                <h3 class="features__feature">Discuss</h3>
+                                <p class="features__content-feature">
+                                    Conversation with teachers or another
+                                    students about task or any other thing
+                                </p>
+                                <!-- Task -->
+                            </li>
+                            <li class="features__item">
+                                <div
+                                    class="features__img"
+                                    style="--features-icon-bg-color: #bf83ff"
+                                >
+                                    <img
+                                        src="./assets/icon/icon-note.svg"
+                                        alt="Note icon"
+                                        class="features__icon"
+                                    />
+                                </div>
+                                <h3 class="features__feature">Task</h3>
+                                <p class="features__content-feature">
+                                    We give every of our students task for
+                                    gathering knowledge at home
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ---- COURSES ---- -->
+            <section class="courses" id="courses">
+                <div class="display-area">
+                    <div class="courses__body">
+                        <p class="courses__title">COURSES</p>
+                        <h2 class="courses__heading">Popular Courses</h2>
+                        <div class="courses__desc-block row">
+                            <p class="courses__desc">
+                                Check out our most poular courses that suit for
+                                you. Here you can find your favourite one.
+                            </p>
+                            <a href="#!" class="courses__link"
+                                >View All Courses</a
+                            >
+                        </div>
+                        <!-- Courses list -->
+                        <ul class="courses__list row">
+                            <!-- Web design -->
+                            <li class="courses__item">
+                                <div class="courses__img-block">
+                                    <a href="#!">
+                                        <img
+                                            src="./assets/img/course_web-design.png"
+                                            alt="Web Design"
+                                            class="courses__thumb"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="courses__color-coating"></div>
+                                <div class="courses__info">
+                                    <h3 class="courses__name">
+                                        <a href="#!">Web Design</a>
+                                    </h3>
+                                    <p class="courses__price">
+                                        Fee
+                                        <span class="courses__value">
+                                            $200</span
+                                        >
+                                    </p>
+                                    <p class="courses__info-desc">
+                                        Web design basic to higer level
+                                    </p>
+                                    <div class="courses__number-time">
+                                        <span class="courses__qty-classes"
+                                            >40 Classes</span
+                                        >
+                                        <span class="courses__time"
+                                            >3 Months</span
+                                        >
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- Web dev -->
+                            <li class="courses__item">
+                                <div class="courses__img-block">
+                                    <a href="#!">
+                                        <img
+                                            src="./assets/img/course_web-dev.png"
+                                            alt="Web Development"
+                                            class="courses__thumb"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="courses__color-coating"></div>
+                                <div class="courses__info">
+                                    <h3 class="courses__name">
+                                        <a href="#!">Web Development</a>
+                                    </h3>
+                                    <p class="courses__price">
+                                        Fee
+                                        <span class="courses__value">
+                                            $250</span
+                                        >
+                                    </p>
+                                    <p class="courses__info-desc">
+                                        Web development basic to higer level
+                                    </p>
+                                    <div class="courses__number-time">
+                                        <span class="courses__qty-classes"
+                                            >30 Classes</span
+                                        >
+                                        <span class="courses__time"
+                                            >3 Months</span
+                                        >
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- ui/ux design -->
+                            <li class="courses__item">
+                                <div class="courses__img-block">
+                                    <a href="#!">
+                                        <img
+                                            src="./assets/img/course_uiux-design.png"
+                                            alt="UI/UX Design"
+                                            class="courses__thumb"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="courses__color-coating"></div>
+                                <div class="courses__info">
+                                    <h3 class="courses__name">
+                                        <a href="#!">UI/UX Design</a>
+                                    </h3>
+                                    <p class="courses__price">
+                                        Fee
+                                        <span class="courses__value">
+                                            $350</span
+                                        >
+                                    </p>
+                                    <p class="courses__info-desc">
+                                        UI/UX design basic to higer level
+                                    </p>
+                                    <div class="courses__number-time">
+                                        <span class="courses__qty-classes"
+                                            >50 Classes</span
+                                        >
+                                        <span class="courses__time"
+                                            >4 Months</span
+                                        >
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ---- COUNTDOWN ---- -->
+            <div class="countdown" id="countdown">
+                <div class="display-area">
+                    <!-- Countdown list -->
+                    <ul class="countdown__list row">
+                        <li class="countdown__item">
+                            <h3 class="countdown__number">100+</h3>
+                            <p class="countdown__desc">Popular Courses</p>
+                        </li>
+                        <li class="countdown__item">
+                            <h3 class="countdown__number">500+</h3>
+                            <p class="countdown__desc">Skilled Trainer</p>
+                        </li>
+                        <li class="countdown__item">
+                            <h3 class="countdown__number">1M+</h3>
+                            <p class="countdown__desc">Student Learning</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- ---- TESTIMONIAL ---- -->
+            <div class="testimonial" id="testimonial">
+                <div class="display-area">
+                    <div class="testimonial__body">
+                        <!-- Content block -->
+                        <div class="testimonial__content-block">
+                            <img
+                                src="./assets/icon/icon-quote.svg"
+                                alt=""
+                                class="testimonial__icon-quote"
+                            />
+                            <p class="testimonial__feedback">
+                                “They are the best people. And this is the
+                                suitable platform to learn from distance.”
+                            </p>
+                            <p class="testimonial__speaker">
+                                <strong class="testimonial__name-speaker"
+                                    >Ben Foakes,</strong
+                                >
+                                student.
+                            </p>
+                            <div class="testimonial__buttons row">
+                                <div class="btn testimonial__arrow-left">
+                                    <svg
+                                        width="8"
+                                        height="14"
+                                        viewBox="0 0 8 14"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M7 13L1 7L7 1"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </div>
+                                <div class="btn testimonial__arrow-right">
+                                    <svg
+                                        width="8"
+                                        height="14"
+                                        viewBox="0 0 8 14"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M1 13L7 7L1 1"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Avatar block -->
+                        <div class="testimonial__avatar-block">
+                            <div
+                                class="testimonial__avatar-circle-1"
+                                style="--testimonial-avatar-bg-color: #1ebfc1"
+                            >
+                                <img
+                                    src="./assets/img/testimonial-avatar-1.png"
+                                    alt="Ben Foakes"
+                                    class="testimonial__avatar"
+                                />
+                            </div>
+                            <div
+                                class="testimonial__avatar-circle-2"
+                                style="--testimonial-avatar-bg-color: #bf83ff"
+                            >
+                                <img
+                                    src="./assets/img/testimonial-avatar-2.png"
+                                    alt="Ben Foakes"
+                                    class="testimonial__avatar"
+                                />
+                            </div>
+                            <div
+                                class="testimonial__avatar-circle-3"
+                                style="--testimonial-avatar-bg-color: #ff8282"
+                            >
+                                <img
+                                    src="./assets/img/testimonial-avatar-3.png"
+                                    alt="Ben Foakes"
+                                    class="testimonial__avatar"
+                                />
+                            </div>
+                            <div
+                                class="testimonial__avatar-circle-4"
+                                style="--testimonial-avatar-bg-color: #ffc147"
+                            >
+                                <img
+                                    src="./assets/img/testimonial-avatar-4.png"
+                                    alt="Ben Foakes"
+                                    class="testimonial__avatar"
+                                />
+                            </div>
+                            <div
+                                class="testimonial__avatar-circle-5"
+                                style="--testimonial-avatar-bg-color: #b1dfdc"
+                            >
+                                <img
+                                    src="./assets/img/testimonial-avatar-5.png"
+                                    alt="Ben Foakes"
+                                    class="testimonial__avatar"
+                                />
+                            </div>
+                            <div
+                                class="testimonial__avatar-circle-6"
+                                style="--testimonial-avatar-bg-color: #ff947a"
+                            >
+                                <img
+                                    src="./assets/img/testimonial-avatar-6.png"
+                                    alt="Ben Foakes"
+                                    class="testimonial__avatar"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ---- CTA ---- -->
+            <div class="cta" id="cta">
+                <div class="display-area">
+                    <div class="cta__body row">
+                        <div class="cta__content">
+                            <h3 class="cta__heading">Ready to Get Admit</h3>
+                            <p class="cta__desc">
+                                Create your account and Boost your Career.
+                            </p>
+                        </div>
+                        <div class="btn cta__btn">Get Started</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- ==== FOOTER ==== -->
+        <footer class="footer" id="footer">
+            <div class="display-area">
+                <div class="footer__body">
+                    <!-- content -->
+                    <div class="footer__content">
+                        <!-- Column 1 -->
+                        <div class="footer__col">
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/logo.svg"
+                                    alt="Besnik."
+                                />
+                            </a>
+                        </div>
+                        <!-- Column 2 -->
+                        <div class="footer__col">
+                            <h3 class="footer__title">Company</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">About</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link"
+                                        >Careers</a
+                                    >
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Press</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Column 3 -->
+                        <div class="footer__col">
+                            <h3 class="footer__title">Community</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link"
+                                        >Team Plans</a
+                                    >
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Blog</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link"
+                                        >Students</a
+                                    >
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link"
+                                        >Schoolarships</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Column 4 -->
+                        <div class="footer__col">
+                            <h3 class="footer__title">Teaching</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link"
+                                        >Become a teacher</a
+                                    >
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link"
+                                        >Teaching academy</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Column 5 -->
+                        <div class="footer__col">
+                            <h3 class="footer__title">Be social</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">
+                                        <div class="footer__social-icon">
+                                            <img
+                                                src="./assets/icon/icon-twitter.svg"
+                                                alt="Twitter"
+                                                class="footer__social-icon-img"
+                                            />
+                                        </div>
+                                        <p class="footer__social-name">
+                                            Twitter
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">
+                                        <div class="footer__social-icon">
+                                            <img
+                                                src="./assets/icon/icon-fb.svg"
+                                                alt="Facebook"
+                                                class="footer__social-icon-img"
+                                            />
+                                        </div>
+                                        <p class="footer__social-name">
+                                            Facebook
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">
+                                        <div class="footer__social-icon">
+                                            <img
+                                                src="./assets/icon/icon-instagram.svg"
+                                                alt="Instagram"
+                                                class="footer__social-icon-img"
+                                            />
+                                        </div>
+                                        <p class="footer__social-name">
+                                            Instagram
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">
+                                        <div class="footer__social-icon">
+                                            <img
+                                                src="./assets/icon/icon-linkedin.svg"
+                                                alt="Linkedin"
+                                                class="footer__social-icon-img"
+                                            />
+                                        </div>
+                                        <p class="footer__social-name">
+                                            Linkedin
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Copyright -->
+                    <p class="footer__cpr">
+                        © Copyright 2020 by Mayad Ahmed. All right reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
